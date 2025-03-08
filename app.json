@@ -1,5 +1,6 @@
 {
   "expo": {
+    "jsEngine": "hermes",
     "name": "exerciseToDoList",
     "slug": "exerciseToDoList",
     "version": "1.0.0",
