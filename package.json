@@ -2,11 +2,11 @@
   "name": "reactnativeexercise",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "",
+  "homepage": "https://iamj4y.github.io/React-Native-Unit-2-Lab-9-Repository",
   "scripts": {
     "start": "expo start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "npx expo export --platform web",
     "stop": "taskkill -F -IM node.exe",
     "android": "expo start --android",
@@ -29,7 +29,7 @@
     "react-native-safe-area-context": "^4.14.1",
     "react-native-screens": "~4.4.0",
     "react-native-vector-icons": "^10.2.0",
-    "react-native-web": "~0.19.13"
+    "react-native-web": "^0.19.13"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

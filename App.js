@@ -12,7 +12,7 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-        <Stack.Navigator screenOptions={{headerShown: true}}>
+        <Stack.Navigator screenOptions={{headerShown: false}}>
           <Stack.Group>
             <Stack.Screen name="Home" component={Home}/>
             <Stack.Screen name="DurationScreen" component={DurationExercise}/>
